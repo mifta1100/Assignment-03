@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Tailwind & DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/341fcd6a95.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+    <!-- Custom Color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class="font-inter">
+    <header class="space-y-3">
+        <!-- Navbar -->
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <i class="fa-solid fa-arrow-right -rotate-45 text-xl bg-[#ABEF5F] rounded-full p-2"></i>
+                <div class="navbar-start">
+                    <div class="dropdown text-xl">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-3xl font-bold"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex space-x-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a class="btn bg-[#ABEF5F] rounded-3xl border border-slate-600 font-bold text-xl">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 text-white rounded-full bg-[#1C1C1C] p-2"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner -->
+         <section class="space-y-6 p-4">
+            <div class="container mx-auto flex justify-center">
+                <img src="images/banner.png" alt="">
+            </div>
+            <div class="container mx-auto space-y-6">
+                <h1 class="text-6xl font-extrabold text-center">A barn house of this design has a <br> striking appearance</h1>
+                <p class="text-center text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                <button class="text-center btn bg-gradient-to-r from-cyan-500 to-blue-500">View Details</button>
+            </div>
+         </section>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
