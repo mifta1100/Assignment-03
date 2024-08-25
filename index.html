@@ -29,7 +29,6 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-
                     }
                 }
             }
@@ -38,11 +37,11 @@
 </head>
 
 <body class="font-inter">
-    <header class="space-y-3">
+    <header class="space-y-3 py-12">
         <!-- Navbar -->
         <nav class="container mx-auto">
             <div class="navbar bg-base-100">
-                <i class="fa-solid fa-arrow-right -rotate-45 text-xl bg-[#ABEF5F] rounded-full p-2"></i>
+
                 <div class="navbar-start">
                     <div class="dropdown text-xl">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -61,7 +60,15 @@
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-3xl font-bold"></i>Rinterio</a>
+                    <a class="btn btn-ghost text-3xl font-bold">
+                        <div class="bg-[#ABEF5F] rounded-full p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </div>Rinterio
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -104,39 +111,146 @@
     <main>
         <!-- About Us -->
         <section class="bg-slate-100 p-24">
-            <div class="container mx-auto flex space-x-9 border border-red-300">
-                <div>
-                    <div class="space-y-6">
-                        <button
-                            class="space-x-2 py-2 px-5 bold text-xl bg-white text-black font-semibold rounded-full shadow-md hover:bg-slate-100 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75"><i
-                                class="fa-solid fa-arrow-right"></i>
-                            About Us
-                        </button>
-                        <h1 class="font-extrabold text-5xl text-[#212121]">We design thoughtful, <br> liveable spaces</h1>
-                        <p class="font-medium text-xl text-[#494949]">The barn house captivates with its blend of rustic charm and <br>
-                            modern sophistication, featuring weathered wood, sleek metal accents.
-                        </p>
-                        <div class="flex space-x-3 bg-white rounded-xl p-6">
-                            <div>
-                                <img src="images/commercial.png" alt="">
+            <div class="space-y-20">
+                <div class="container mx-auto flex justify-center space-x-9">
+                    <div>
+                        <div class="space-y-6">
+                            <button
+                                class="space-x-2 py-2 px-5 bold text-[16px] bg-white text-black font-semibold rounded-full shadow-md hover:bg-slate-100 focus:outline-none"><i
+                                    class="fa-solid fa-arrow-right"></i>
+                                About Us
+                            </button>
+                            <h1 class="font-extrabold text-5xl text-[#212121]">We design thoughtful, <br> liveable
+                                spaces
+                            </h1>
+                            <p class="font-medium text-[16px] text-[#494949]">The barn house captivates with its blend
+                                of
+                                rustic
+                                charm and <br>
+                                modern sophistication, featuring weathered wood, sleek metal accents.
+                            </p>
+                            <div class="flex space-x-4 items-center bg-white rounded-xl p-6">
+                                <div>
+                                    <img src="images/commercial.png" alt="">
+                                </div>
+                                <div class="space-y-2">
+                                    <h3 class="font-extrabold text-xl text-[#494949]">Commercial</h3>
+                                    <p class="text-[#737373]">The barn house captivates with its <br> blend of rustic
+                                        charm
+                                        and modern.</p>
+                                </div>
                             </div>
-                            <div class="space-y-2">
-                                <h3 class="font-extrabold text-xl text-[#494949]">Commercial</h3>
-                                <p class="bg-[#737373]">The barn house captivates with its <br> blend of rustic charm and modern.</p>
+                            <div class="flex space-x-3 items-center bg-white rounded-xl p-6">
+                                <div>
+                                    <img src="images/residential.png" alt="">
+                                </div>
+                                <div class="space-y-2">
+                                    <h3 class="font-extrabold text-xl text-[#494949]">Residential</h3>
+                                    <p class="text-[#737373]">The barn house captivates with its blend <br> of rustic
+                                        charm
+                                        and modern.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex space-x-3 bg-white rounded-xl p-6">
-                            <div>
-                                <img src="images/residential.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/Rectangle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Stat -->
+                <div class="container mx-auto flex justify-center">
+                    <div class="py-6 px-16 rounded-2xl bg-white">
+                        <div class="flex justify-center space-x-12">
+                            <div class="flex flex-col items-center justify-center py-7 px-10 space-y-3 bg-white">
+                                <h3 class="text-3xl"><i class="fa-regular fa-message"></i></h3>
+                                <h1 class="font-extrabold text-5xl text-[#494949]">235+</h1>
+                                <p class="font-semibold text-xl text-[#737373]">Happy Client Review</p>
                             </div>
-                            <div class="space-y-2">
-                                <h3 class="font-extrabold text-xl text-[#494949]">Residential</h3>
-                                <p class="bg-[#737373]">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                            <div class="flex flex-col items-center justify-center py-7 px-10 space-y-3 bg-white">
+                                <h3 class="text-3xl"><i class="fa-regular fa-building"></i></h3>
+                                <h1 class="font-extrabold text-5xl text-[#494949]">50+</h1>
+                                <p class="font-semibold text-xl text-[#737373]">Work Departments</p>
+                            </div>
+                            <div class="flex flex-col items-center justify-center py-7 px-10 space-y-3 bg-white">
+                                <h3 class="text-3xl"><i class="fa-solid fa-people-group"></i></h3>
+                                <h1 class="font-extrabold text-5xl text-[#494949]">30k+</h1>
+                                <p class="font-semibold text-xl text-[#737373]">Our Happy Client</p>
+                            </div>
+                            <div class="flex flex-col items-center justify-center py-7 px-10 space-y-3 bg-white">
+                                <h3 class="text-3xl"><i class="fa-regular fa-user"></i></h3>
+                                <h1 class="font-extrabold text-5xl text-[#494949]">307+</h1>
+                                <p class="font-semibold text-xl text-[#737373]">Staff Members</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <!-- Our Works Process -->
+                <div class="container mx-auto flex flex-col justify-center space-y-[32px]">
+                    <div class="space-y-6 text-center">
+                        <button
+                            class="space-x-2 py-2 px-5 bold text-[16px] bg-white text-black font-semibold rounded-full shadow-md hover:bg-slate-100 focus:outline-none"><i
+                                class="fa-solid fa-arrow-right"></i>
+                            How we works
+                        </button>
+                        <h1 class="font-extrabold text-[40px] text-[#212121]">Our Works Process</h1>
+                        <p class="font-medium text-[16px] text-[#494949]">The barn house captivates with its blend of
+                            rustic
+                            charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                    <div class="flex justify-center space-x-12">
+                        <div class="flex flex-col py-7 px-10 space-y-2 bg-[#E7C1D3] rounded-2xl">
+                            <div class="flex justify-start">
+                                <img src="images/concept.png" alt="">
+                            </div>
+                            <h1 class="font-extrabold text-[20px] text-[#1C1C1C]">Concept</h1>
+                            <p class="font-semibold text-[16px] text-[#494949]">The barn house captivates <br> with its
+                                blend of rustic charm <br> and modern.</p>
+                        </div>
+                        <div class="flex flex-col py-7 px-10 space-y-2 bg-[#EFDA6E] rounded-2xl">
+                            <div class="flex justify-start">
+                                <img src="images/flow-chart.png" alt="">
+                            </div>
+                            <h1 class="font-extrabold text-[20px] text-[#1C1C1C]">Design Process</h1>
+                            <p class="font-semibold text-[16px] text-[#494949]">The barn house captivates <br> with its
+                                blend of rustic charm <br> and modern.</p>
+                        </div>
+                        <div class="flex flex-col py-7 px-10 space-y-2 bg-[#A4DAC3] rounded-2xl">
+                            <div class="flex justify-start">
+                                <img src="images/vision.png" alt="">
+                            </div>
+                            <h1 class="font-extrabold text-[20px] text-[#1C1C1C]">Supervision</h1>
+                            <p class="font-semibold text-[16px] text-[#494949]">The barn house captivates <br> with its
+                                blend of rustic charm <br> and modern.</p>
+                        </div>
+                        <div class="flex flex-col py-7 px-10 space-y-2 bg-[#77AAEA] rounded-2xl">
+                            <div class="flex justify-start">
+                                <img src="images/budget-planning.png" alt="">
+                            </div>
+                            <h1 class="font-extrabold text-[20px] text-[#1C1C1C]">Budget Planning</h1>
+                            <p class="font-semibold text-[16px] text-[#494949]">The barn house captivates <br> with its
+                                blend of rustic charm <br> and modern.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        <section class="p-24">
+            <div class="container mx-auto flex flex-col justify-center">
+                <div class="space-y-6 text-center">
+                    <button
+                        class="space-x-2 py-2 px-5 bold text-[16px] bg-[#ABEF5F] bg-opacity-20 text-[#494949] font-bold rounded-full shadow-md hover:bg-slate-100 focus:outline-none"><i
+                            class="fa-solid fa-arrow-right"></i>
+                        Explore our Latest works
+                    </button>
+                    <h1 class="font-extrabold text-[40px] text-[#212121]">Our Works Process</h1>
+                    <p class="font-medium text-[16px] text-[#494949]">The barn house captivates with its blend of rustic
+                        charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
